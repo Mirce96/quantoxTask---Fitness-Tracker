@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker - Monday Stats</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+</head>
+<body>
+   <div class="intro_section">
+     <div class="container">
+       <div class="row">
+         <div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+          <div class="days_header_section">
+            <div class="arrow_back_img">
+                <a href="index.html"><img src="img/arrow_back.png" alt=""></a>
+            </div>
+                <div class="days_header">
+                  <h1>Monday</h1>
+                  <p>June 10, 2019.</p>
+                </div>
+          </div>
+          <div class="days_section">
+              <div class="col" clearfix><a href="day1.html"><p>4<br>mon</p></a></div>
+              <div class="col" clearfix><a href="day2.html"><p>5<br>tue</p></a></div>
+              <div class="col" clearfix><a href="day3.html"><p>6<br>wed</p></a></div>
+              <div class="col" clearfix><a href="day4.html"><p>7<br>thu</p></a></div>
+              <div class="col" clearfix><a href="day5.html"><p>8<br>fri</p></a></div>
+          </div>
+          <div class="status_section">
+            <div class="status_steps">
+              <img src="img/runner.png" alt="">
+              <h2>Steps</h2>
+              <span id="mondaySteps"></span>
+            </div>
+            <div class="status_info">
+              <h3>Very good</h3>
+              <p>Keep going!</p>
+            </div>
+            <div class="status_data">
+              <div class="row">
+                <div class='column'>
+                <span>km</span>
+                <p id="mondayDistance"></p>
+              </div>
+              <div class='column'>
+                <span>cal</span>
+                <p id="mondayCaloriesBurnt"></p>
+              </div>
+              <div class='column'>
+                <span>min</span>
+                <p id="mondayActivityDuration"></p>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+         </div>
+       </div>
+     </div>
+    <!-- JavaScript -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mondayStats.js"></script>
+</body>
+</html>
